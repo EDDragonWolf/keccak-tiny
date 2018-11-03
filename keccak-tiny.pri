@@ -2,6 +2,8 @@
 # Options:
 #    *  KECCAK_UNROLLED - Enable unrolled implementation (but disable main one).
 
+QMAKE_CFLAGS += -std=c99
+
 HEADERS += \
     $$PWD/keccak-tiny.h \
     $$PWD/define-macros.h
